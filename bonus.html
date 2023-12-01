@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bonus hw</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT';
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .form-container {
+            width: 95%; /* 調整寬度百分比 */
+            margin: 2% auto;
+            padding: 1%; /* 調整 padding 百分比 */
+            border: 0.1% solid #ccc;
+            border-radius: 0.5%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .form-row {
+            margin-bottom: 1%; /* 調整 margin 百分比 */
+            overflow: hidden; /* 清除浮動元素 */
+            display: flex;
+        }
+
+        .form-col {
+            width: 95%; /* 調整寬度百分比 */
+            float: left;
+            margin-right: 2%; /* 調整右邊距百分比 */
+            box-sizing: border-box;
+            display: flex;
+        }
+
+        #field2 {
+            width: 46%; 
+        }
+        #field3 {
+            width: 46%; 
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0; /* 調整 margin 百分比 */
+            margin-right: 1.5%;
+        }
+
+        input {
+            width: 95%;
+            padding: 1%; /* 調整 padding 百分比 */
+            box-sizing: border-box;
+            margin-bottom: 2%; /* 調整 margin 百分比 */
+            border: 0.1% solid #ccc;
+            border-width: 95%;
+            border-radius: 3%;
+        }
+
+        textarea {
+            resize: none;
+            width: 95%;
+            padding: 8%; /* 調整 padding 百分比 */
+            box-sizing: border-box;
+            margin-bottom: 2%;
+            border: 0.1% solid #ccc;
+            border-width: 95%;
+            border-radius: 3%;
+            }
+
+        img {
+          width: 95%;
+          height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bonus HW</h1>
+    <div class="form-container">
+        <div class="form-row">
+            <div class="form-col">
+                <label for="field1">input1</label>
+                <input type="text" id="field1" name="field1" placeholder="input1">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-col">
+                <label for="field2">input2</label>
+                <input type="text" id="field2" name="field2" placeholder="input2">
+            </div>
+            <div class="form-col">
+                <label for="field3">input3</label>
+                <input type="text" id="field3" name="field3" placeholder="input3">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-col">
+                <label for="field4">input4</label>
+                <input type="text" id="field4" name="field4" placeholder="input4">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-col">
+                <label for="textarea">textarea</label>
+                <textarea id="textarea" name="textarea"></textarea>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-col">
+                <label for="picture">picture1</label>
+                <img src="https://i.pinimg.com/originals/bf/59/76/bf59764c4815d6c3eaf941ebabcbd4da.jpg" alt=" ">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
